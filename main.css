@@ -4,21 +4,26 @@
 
 .apk-h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 75px;
     text-align: center;
     color: white;
+    padding: 20px;
+    background-color: rgb(20,20,20);
+    margin: 0px;
+    border: 5px solid rgb(10,10,10);
 }
 
 .apk-p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 15px;
     text-align: center;
     color: white;
 }
 
 .apk-p-description{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 15px;
     text-align: center;
     color: white;
+    margin-top: 75px;
 }
