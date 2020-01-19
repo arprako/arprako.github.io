@@ -1,19 +1,27 @@
-.apk-body{
-    background-color: black;
+/* VARIABLES */
+#root{
+    --main-container-position-left: 20%;
+    --main-container-position-right: 20%;
+    --main-container-position-width: 50%;
 }
 
-.apk-h1{
+.apk-body{
+    background-color: black;
+    color: white;
+}
+
+/* HEADER */
+.apk-p-company-name{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 75px;
+    font-size: 3em;
     text-align: center;
     color: white;
     padding: 20px;
     background-color: rgb(20,20,20);
     margin: 0px;
     border: 5px solid rgb(10,10,10);
-    border-radius: 50px;
+    border-radius: 100px;
 }
-
 .apk-p-description{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -21,16 +29,17 @@
     color: white;
 }
 
-.apk-p-detailed-memoranda{
+/* STYLES FOR MAINTENANCE BANNER */
+.apk-p-under-construction{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
     color: white;
-    margin-top: 75px;
+    margin-top: 50px;
+    /* display: none; */
 }
-
-.apk-span-alert{
-    font-size: 3em;
+.apk-p-under-construction span{
+    font-size: 50px;
     color: brown;
     font-style: normal;
     background-color: white;
@@ -38,4 +47,16 @@
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 50px;
+}
+
+/* BODY CONTENT */
+div.apk-page-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+div.apk-page-container p{
+    margin: 0px;
+    text-align: center;
 }
