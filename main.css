@@ -11,6 +11,7 @@
     background-color: rgb(20,20,20);
     margin: 0px;
     border: 5px solid rgb(10,10,10);
+    border-radius: 50px;
 }
 
 .apk-p{
@@ -26,4 +27,15 @@
     text-align: center;
     color: white;
     margin-top: 75px;
+}
+
+.apk-span-alert{
+    font-size: 3em;
+    color: brown;
+    font-style: normal;
+    background-color: white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
 }
