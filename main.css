@@ -1,34 +1,31 @@
 /* VARIABLES - none */
 
 .apk-body{
-    background-color: black;
+    background-color: #202020;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    text-align: center;
 }
 
 /* HEADER */
-.apk-p-company-name{
+div.apk-div-company-name{
     font-size: 3em;
-    text-align: center;
-    color: white;
+    color: black;
     padding: 20px;
-    background-color: rgb(20,20,20);
-    margin: 0px;
-    border: 5px solid rgb(10,10,10);
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 5px;
+    background-color: white;
     border-radius: 100px;
 }
 .apk-p-description{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
     text-align: center;
     color: white;
 }
 
 /* STYLES FOR MAINTENANCE BANNER */
 .apk-p-under-construction{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
     text-align: center;
     color: white;
     margin-top: 50px;
@@ -36,7 +33,7 @@
 }
 .apk-p-under-construction span{
     font-size: 3em;
-    color: brown;
+    color: crimson;
     font-style: normal;
     background-color: white;
     padding: 5px;
@@ -52,7 +49,7 @@ div.apk-div-contact-title{
     align-items: center;
     justify-content: center;
     padding: 5px;
-    color: rgb(0,125,255);
+    color: dodgerblue;
 }
 div.apk-div-contact-info{
     display: flex;
@@ -67,7 +64,7 @@ div.apk-div-tech-stack-title{
     align-items: center;
     justify-content: center;
     padding: 5px;
-    color: rgb(0,125,255);
+    color: dodgerblue;
 }
 div.apk-div-tech-stack-info{
     display: flex;
